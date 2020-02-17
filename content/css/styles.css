@@ -1,0 +1,308 @@
+/* Start Global */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.divider{
+	width: 50px;
+	height: 4px;
+	background-color: #1a57a5;
+	margin: 0 auto;
+}
+
+.py{
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.my{
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+/* End Global */
+
+/* Start Main Section */
+.main-home{
+	background-image: url(../img/main.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+	color: #fff;
+	position: relative;	
+}
+
+.main-home .overlay{
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.5);
+}
+
+.change{
+	z-index: 999;
+}
+.main-home .navbar-light .navbar-nav .nav-item .nav-link,
+.main-home .navbar-light .navbar-brand
+{
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.main-home .main-home-text{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.main-home .main-home-text .last-text{
+	text-align: center;
+	font-style: italic;
+}
+
+.main-home .main-home-btns button{
+	padding: 15px 27px;
+	border-radius: 0;
+}
+.main-home .main-home-btns .btn-info{
+	border-color: #1a56a4;
+	background-color: #1a56a4;
+	color: #fff;
+	transition: all 0.5s ease-in-out;
+}
+
+.main-home .main-home-btns .btn-info:hover{
+	border-color: #fff;
+	background-color: #fff;
+	color: #1a56a4;
+}
+
+.main-home .main-home-btns .btn-outline-info{
+	border-color: #fff;
+	color: #fff;
+	transition: all 0.5s ease-in-out;
+}
+
+.main-home .main-home-btns .btn-outline-info:hover{
+	border-color: #1a56a4;
+	background-color: #1a56a4;
+	color: #fff;
+}
+/* End Main Section */
+/* Start Icons Section */
+
+.icons-section .icon i,
+.icons-section .icon h3,
+.icons-section .icon-body a{
+	color: #4b7bb8;
+}
+
+.icons-section .icon-body p{
+	color: #73767c;
+}
+/* End Icons Section */
+
+/* Start Features Section */
+.features{
+	background-color: #d6e6f2;
+}
+
+.features header p{
+	margin-bottom: 0;
+	color: #73767c;
+	padding: 0 15px;
+}
+
+.features .description .head h3{
+	color: #1a57a5;
+}
+
+.features .description p,
+.features .description .fa-ul li{
+	color: #73767c;
+}
+
+.features .description .fa-ul li i{
+	color: #1a57a5;
+}
+
+.features .dash-img img{
+	box-shadow: 2px 2px 15px 0px #b7b5b5;
+}
+/* End Features Section */
+
+/* Start Pricing Section */
+.pricing header p{
+	margin-bottom: 0;
+	color: #73767c;
+	padding: 0 15px;
+}
+
+.pricing .card .card-body h6{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.pricing .card .card-title{
+	text-align: center;
+	color: #1a57a5;
+	font-size: 50px;
+}
+
+.pricing .card .card-text{
+	color: #bdbdc3;
+}
+
+.pricing .card .fa-ul li{
+	color: #73767c;
+	font-size: 15px;
+}
+
+.pricing .card .fa-ul li i{
+	color: #1a57a5;
+}
+
+.pricing .card .card-body .btn-black{
+	background-color: #000;
+	border: #000;
+	padding: 8px 27px;
+	transition: all 0.5s ease-in-out;
+}
+
+.pricing .card{
+	transition: all 0.5s ease-in-out;
+}
+
+.pricing .card:hover{
+	box-shadow: 2px 2px 15px 0px #b7b5b5;
+	transform: scale3d(1.4);
+}
+
+.pricing .card:hover .btn-black{
+	background-color: #1a57a5;
+}
+/* End Pricing Section */
+
+/* Start Testimonials Section */
+.testimonials{
+	background-color: #d6e6f2;
+}
+
+.testimonials header p{
+	margin-bottom: 0;
+	color: #73767c;
+	padding: 0 15px;
+}
+
+.testimonials .card .card-img-top{
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+}
+.testimonials .card .rating i{
+	color: #f79f24;
+}
+
+.testimonials .card .card-body span{
+	color: #73767c;
+}
+/* End Testimonials Section */
+
+/* Start Try Section */
+.try-it header p{
+	margin-bottom: 0;
+	color: #73767c;
+	padding: 0 15px;
+}
+
+.try-it .text h4{
+	font-size: 19px;
+}
+.try-it .text h4 i{
+	color: #1a57a5;
+	font-size: 19px;
+}
+
+.try-it .text p{
+	color: #73767c;
+}
+/* End Try Section */
+
+/* Start Join Section */
+.join{
+	background-color: #1a57a5;
+	color: #fff;
+}
+
+.join .join-text p{
+margin-bottom: 0;
+}
+
+.join .join-text .btn-black{
+	background-color: #000;
+	border: #000;
+	padding: 8px 27px;
+}
+
+/* End Join Section */
+
+/* Start Contact Us Section */
+
+.contact-us{
+	background-color: #d6e6f2;
+}
+
+.contact-us .contact-form{
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 2px 2px 15px 0px #b7b5b5;
+	padding: 30px;
+}
+
+.contact-us .contact-form .btn{
+	background-color: #1a57a5;
+	padding: 9px 25px;
+}
+
+.contact-us label{
+	color: #99a5ad;
+	text-transform: uppercase;
+}
+
+.contact-us p{
+	color: #73767c;
+}
+/* End Contact Us Section */
+
+/* Start Footer Section */
+.footer{
+	background-color: #1a57a5;
+	color: #fff;
+	text-align: center;
+}
+
+.footer .social i{
+	font-size: 35px;
+	color: #6f96c6;
+	padding: 10px;
+}
+
+.footer .copywrite a{
+	color: #6f96c6;
+}
+/* End Footer Section */
+
+/* Start Scroll To Top */
+#scroll-to-top{
+position: fixed;
+bottom: 30px;
+right: 50px;
+cursor: pointer;
+font-size: 30px;
+color: #1a57a5;
+display: none;
+}
+
+/* End Scroll To Top */
